@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:id="@+id/radioLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dp">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="250px"
+            android:layout_height="10px">
+            <EditText
+                android:id="@+id/TeamNameBox"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="180dp"
+                android:layout_height="36.1dp"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/ENTER"
+                android:width="250px"
+                android:height="10px"
+                android:text="ENTER"
+                android:layout_marginRight="0.0dp" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/PositionNamesTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position1"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player1"
+                android:layout_width="200px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position2"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player2"
+                android:layout_width="200px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position3"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player3"
+                android:layout_width="200px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp"
+                android:layout_column="1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position4"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player4"
+                android:layout_width="200px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position5"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player5"
+                android:layout_width="200px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position6"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player6"
+                android:layout_width="200px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position7"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player7"
+                android:layout_width="200px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position8"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player8"
+                android:layout_width="150px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position9"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player9"
+                android:layout_width="150px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position10"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player10"
+                android:layout_width="150px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/position11"
+                android:text="" />
+            <TextView
+                android:id="@+id/Player11"
+                android:layout_width="150px"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20px"
+                android:textSize="15dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
